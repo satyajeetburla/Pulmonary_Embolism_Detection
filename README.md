@@ -16,7 +16,7 @@ As one of the leading causes of cardiovascular deaths, swift and precise PE dete
 https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data
 <table>
   <tr>
-    <td><img src=src="image/pe1.jpg" alt="1" width = 360px height = 360px ></td>
+    <td><img src=src="[URL_OF_SECOND_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe1.jpg)" alt="1" width = 360px height = 360px ></td>
     <td><img src="[URL_OF_SECOND_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe2.jpg)" alt="2" width = 360px height = 360px ></td>
   </tr>
   <tr>
