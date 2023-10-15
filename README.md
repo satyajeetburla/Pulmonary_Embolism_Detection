@@ -20,7 +20,7 @@ As one of the leading causes of cardiovascular deaths, swift and precise PE dete
   </tr>
   <tr>
     <td><img src="https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/raw/main/image/pe3.jpg" alt="3" width="360px" height="360px"></td>
-    <td><img src="https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/raw/main/image/pe4.jpg" alt="4" width="360px" height="360px"></td>
+    <td><img src="https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/raw/main/image/pe4.png" alt="4" width="360px" height="360px"></td>
   </tr>
 </table>
 
