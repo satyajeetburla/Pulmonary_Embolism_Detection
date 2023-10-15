@@ -95,7 +95,7 @@ Total Loss:
 It's the average of both the image-level and exam-level log losses.
 To compute the total loss, you sum the weights of all image rows and exam-level label rows. Then, divide this sum by the total number of rows (both image and exam) to get the average weight. This average weight is then used to adjust the computed log loss.
 
-## Result
+## Result on Validation
 Final Loss : 0.089;  AUC : 0.998
 
 
