@@ -1,5 +1,18 @@
 # Pulmonary_Embolism_Detection
-Find data from the below link : 
+## Problem Description:
+Pulmonary embolism (PE) is a serious medical condition caused by an artery blockage in the lung. Its symptoms can often be painful and, in severe cases, life-threatening. Currently, diagnosing PE requires detailed examination of chest CT pulmonary angiography (CTPA) scans, which can comprise hundreds of images per patient. Due to the intricate nature of these scans, accurate identification of PE can be time-consuming and may sometimes lead to overdiagnosis.
+
+With the growing reliance on medical imaging, the workload for radiologists continues to increase. This might lead to potential delays in PE diagnosis and subsequent treatment, raising concerns about patient care. Annually, PE accounts for 60,000-100,000 deaths in the U.S., making timely and precise diagnosis crucial to improve patient outcomes.
+
+
+### Goal:
+We will utilize chest CTPA images, organized as studies, to develop algorithms that can detect and classify PE with enhanced accuracy.
+The work can play a pivotal role in minimizing human-induced delays and errors during PE diagnosis and treatment, leading to better patient care and potentially improved outcomes.
+
+### Impact:
+As one of the leading causes of cardiovascular deaths, swift and precise PE detection can greatly enhance patient care and potentially save lives. Utilizing machine learning techniques can potentially revolutionize the way we approach PE diagnosis, ensuring patients receive the care they need when they need it.
+
+### Find data from the below link : 
 https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data
 ## How to use the Code:
 1. First Preprocess the input
