@@ -14,6 +14,17 @@ As one of the leading causes of cardiovascular deaths, swift and precise PE dete
 
 ### Find data from the below link : 
 https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data
+<table>
+  <tr>
+    <td><img src="[URL_OF_FIRST_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe1.jpg)" alt="1" width = 360px height = 360px ></td>
+    <td><img src="[URL_OF_SECOND_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe2.jpg)" alt="2" width = 360px height = 360px ></td>
+  </tr>
+  <tr>
+    <td><img src="[URL_OF_THIRD_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe3.jpg)" alt="3" width = 360px height = 360px ></td>
+    <td><img src="[URL_OF_FOURTH_IMAGE](https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/blob/main/image/pe4.jpg)" alt="4" width = 360px height = 360px ></td>
+  </tr>
+</table>
+
 ## How to use the Code:
 1. First Preprocess the input
 ```
