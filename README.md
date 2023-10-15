@@ -1,4 +1,26 @@
 # Pulmonary_Embolism_Detection
+## How to use the Code:
+1. First Preprocess the input
+```
+Python Preprocessing.py
+```
+2. Lung Localizer Step
+
+```
+python train.py
+```
+```
+python save_features.py
+```
+3. Main Training Process
+```
+python train.py
+```
+```
+python save_features.py
+```
+
+## Approach
 
 1. Image Preparation:
 It was observed that enhancing the dimensions of an image significantly boosts the accuracy of analysis. However, within the provided images, the lung representation varied both in terms of size and position.
