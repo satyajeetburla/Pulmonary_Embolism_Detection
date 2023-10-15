@@ -12,7 +12,7 @@ The work can play a pivotal role in minimizing human-induced delays and errors d
 ### Impact:
 As one of the leading causes of cardiovascular deaths, swift and precise PE detection can greatly enhance patient care and potentially save lives. Utilizing machine learning techniques can potentially revolutionize the way we approach PE diagnosis, ensuring patients receive the care they need when they need it.
 
-### Find data from the below link : 
+
 <table>
   <tr>
     <td><img src="https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/raw/main/image/pe1.jpg" alt="1" width="360px" height="360px"></td>
@@ -23,6 +23,9 @@ As one of the leading causes of cardiovascular deaths, swift and precise PE dete
     <td><img src="https://github.com/satyajeetburla/Pulmonary_Embolism_Detection/raw/main/image/pe4.png" alt="4" width="360px" height="360px"></td>
   </tr>
 </table>
+
+### Find data from the below link : 
+https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data
 
 ## How to use the Code:
 1. First Preprocess the input
@@ -71,3 +74,29 @@ Refinement & Consistency:
 5. The final step emphasized aligning the model's output with given consistency criteria.
 An automated correctional workflow was introduced: If initial model outputs deviated from required consistency, the system would evaluate both positive and negative prediction consistency, opting for the one with minimized deviation.
 The refinement weights, closely mirroring the competition's criteria, ensured the model's results were both accurate and consistent.
+
+
+## Metric: Weighted Log Loss
+
+Exam-level weighted log loss:
+
+Each exam label (9 in total) has its own weight (w_j), and the objective is to predict the probability (p_ij) of each label being present for a given exam.
+There's a table that provides the weight for each label, such as Negative for PE, Indeterminate, etc.
+Finally we calculates the binary log loss for each label and then computes the mean log loss over all labels.
+
+Image-level weighted log loss:
+
+This is for individual images within each exam. An image either has PE present or doesn't.
+The weight for the image-level label is given as w = 0.07361963.
+There's a formula provided to compute the log loss for the image-level predictions.
+
+Total Loss:
+
+It's the average of both the image-level and exam-level log losses.
+To compute the total loss, you sum the weights of all image rows and exam-level label rows. Then, divide this sum by the total number of rows (both image and exam) to get the average weight. This average weight is then used to adjust the computed log loss.
+
+## Result
+Final Loss : 0.089;  AUC : 0.998
+
+
+
